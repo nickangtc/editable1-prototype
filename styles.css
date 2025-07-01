@@ -1,0 +1,15 @@
+/* Editor container styles */
+#editor {
+  white-space: pre-wrap;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Token styles for continuous highlight */
+.token {
+  display: inline-block;
+  /* No margin, so highlights are continuous */
+  background: transparent;
+  user-select: text;
+  -webkit-user-select: text;
+}

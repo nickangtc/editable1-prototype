@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Word-level editor demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: system-ui, Arial, sans-serif;
+      margin: 40px;
+    }
+
+    #editor {
+      border: 1px solid #ccc;
+      padding: 12px;
+      min-height: 120px;
+      line-height: 1.6;
+      cursor: text;
+    }
+  </style>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h2>Word-level editor prototype</h2>
+  <p>Click in the grey box. Arrow around, use <kbd>Shift</kbd>+arrows to multi-select, then hit <kbd>Backspace</kbd> or
+    <kbd>Delete</kbd>.
+  </p>
+
+  <div id="editor" contenteditable="true"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
